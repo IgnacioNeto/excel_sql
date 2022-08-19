@@ -1,0 +1,26 @@
+database clientebd
+
+create table clientes(
+id_cliente int identity(1,1),
+nome char(50) not null,
+telefone char(50),
+email char(50),
+)
+
+
+CREATE TABLE clientes (
+id_cliente int NOT NULL PRIMARY KEY,
+nome VARCHAR(50) NOT NULL,
+telefone VARCHAR(50),
+email VARCHAR(50)
+)ENGINE=MyISAM;
+
+clientebddados
+
+
+drives odbc mysql 5.3
+https://dev.mysql.com/downloads/connector/odbc/5.3.html
+
+drive odbc sql server
+
+https://docs.microsoft.com/pt-br/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-2017
